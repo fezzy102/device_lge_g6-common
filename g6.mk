@@ -15,7 +15,7 @@
 #
 
 # Inherit proprietary blobs
-$(call inherit-product-if-exists, vendor/lge/g6-common/g6-common-vendor.mk)
+$(call inherit-product, vendor/lge/g6-common/g6-common-vendor.mk)
 
 $(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
