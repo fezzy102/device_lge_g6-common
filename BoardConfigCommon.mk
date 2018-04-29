@@ -39,6 +39,3 @@ TARGET_SYSTEM_PROP += $(DEVICE_COMMON_PATH)/system.prop
 
 # Treble
 PRODUCT_SHIPPING_API_LEVEL := 24
-
-# inherit from the proprietary version
--include vendor/lge/g6-common/BoardConfigVendor.mk
